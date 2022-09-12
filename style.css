@@ -26,6 +26,7 @@ html {
 a {
     text-decoration: none;
     font-family: var(--font01);
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -40,7 +41,7 @@ a:hover {
 
 p {
     font-family: var(--font01);
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 2em;
 }
 
@@ -282,6 +283,7 @@ h2 {
 .projects-android p {
     padding: 20px;
     text-align: justify;
+    max-width: 400px;
 }
 
 .projects-android {
@@ -291,6 +293,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     background-color: var(--cor03);
     border-radius: 30px;  
@@ -304,6 +307,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     background-color: var(--cor01);
     color: white;
@@ -313,6 +317,7 @@ h2 {
 .projects-loja p {
     padding: 20px;
     text-align: justify;
+    max-width: 400px;
 }
 
 .projects-loja {
@@ -323,6 +328,7 @@ h2 {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     background-color: var(--cor03);
     border-radius: 30px;
@@ -336,6 +342,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     background-color: var(--cor01);
     color: white;
@@ -345,6 +352,7 @@ h2 {
 .projects-ballarini p {
     padding: 20px;
     text-align: justify;
+    max-width: 400px;
 }
 
 .projects-ballarini {
@@ -354,6 +362,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     background-color: var(--cor03);
     border-radius: 30px;
@@ -367,6 +376,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     background-color: var(--cor01);
     color: white;
